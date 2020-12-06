@@ -54,6 +54,38 @@ npm run build
 
 Access /dev/index.html
 
+### Linting
+
+#### Check general errors
+
+```bash
+npm run lint
+```
+
+#### Check Javascript errors (With ESLint)
+
+```bash
+npm run lint:code:check
+```
+
+#### Fix Javascript errors (With ESLint)
+
+```bash
+npm run lint:code:write
+```
+
+#### Check Style errors (With CSS in Js or Styled Components)
+
+```bash
+npm run lint:style:check
+```
+
+#### Fix Style errors (With CSS in Js or Styled Components)
+
+```bash
+npm run lint:style:write
+```
+
 ## Release
 
 ### General releases:

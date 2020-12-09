@@ -9,5 +9,8 @@ node_modules
 # Optional npm cache directory
 .npm
 
+# Build output
+dist
+
 # Mac
 .DS_Store

@@ -18,6 +18,7 @@ TODO
 
 ### Stack
 - Node
+- Jest + React Testing Library
 
 ### Environment Variables
 
@@ -53,6 +54,38 @@ npm run build
 ```
 
 Access /dev/index.html
+
+### Testing
+
+#### Running general tests
+
+```bash
+npm run test
+```
+
+#### Running tests with new snapshots
+
+```bash
+npm run test:snap
+```
+
+#### Running tests with code coverage report
+
+```bash
+npm run test:coverage
+```
+
+#### Running tests with code watch
+
+```bash
+npm run test:watch
+```
+
+#### Running tests on CI environment (running in band)
+
+```bash
+npm run test:ci
+```
 
 ### Linting
 

@@ -17,3 +17,7 @@ coverage
 
 # Mac
 .DS_Store
+
+# dotenv
+
+.env

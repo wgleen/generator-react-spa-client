@@ -2,73 +2,87 @@
 
 exports[`<App /> should render correctly 1`] = `
 <App>
-  <Router>
-    <RouterProvider>
-      <BrowserRouter>
-        <Router
-          history={
-            Object {
-              "action": "POP",
-              "block": [Function],
-              "createHref": [Function],
-              "go": [Function],
-              "goBack": [Function],
-              "goForward": [Function],
-              "length": 1,
-              "listen": [Function],
-              "location": Object {
-                "hash": "",
-                "pathname": "/",
-                "search": "",
-                "state": undefined,
-              },
-              "push": [Function],
-              "replace": [Function],
-            }
-          }
-        >
-          <Routes>
-            <Suspense
-              fallback="Loading"
+  <ReduxProvider>
+    <Provider
+      store={
+        Object {
+          "dispatch": [Function],
+          "getState": [Function],
+          "replaceReducer": [Function],
+          "subscribe": [Function],
+          Symbol(observable): [Function],
+        }
+      }
+    >
+      <Router>
+        <RouterProvider>
+          <BrowserRouter>
+            <Router
+              history={
+                Object {
+                  "action": "POP",
+                  "block": [Function],
+                  "createHref": [Function],
+                  "go": [Function],
+                  "goBack": [Function],
+                  "goForward": [Function],
+                  "length": 1,
+                  "listen": [Function],
+                  "location": Object {
+                    "hash": "",
+                    "pathname": "/",
+                    "search": "",
+                    "state": undefined,
+                  },
+                  "push": [Function],
+                  "replace": [Function],
+                }
+              }
             >
-              <Switch>
-                <Route
-                  component={
-                    Object {
-                      "$$typeof": Symbol(react.lazy),
-                      "_init": [Function],
-                      "_payload": Object {
-                        "_result": Promise {},
-                        "_status": 0,
-                      },
-                    }
-                  }
-                  computedMatch={
-                    Object {
-                      "isExact": true,
-                      "params": Object {},
-                      "path": "/",
-                      "url": "/",
-                    }
-                  }
-                  exact={true}
-                  location={
-                    Object {
-                      "hash": "",
-                      "pathname": "/",
-                      "search": "",
-                      "state": undefined,
-                    }
-                  }
-                  path="/"
-                />
-              </Switch>
-              Loading
-            </Suspense>
-          </Routes>
-        </Router>
-      </BrowserRouter>
-    </RouterProvider>
-  </Router>
+              <Routes>
+                <Suspense
+                  fallback="Loading"
+                >
+                  <Switch>
+                    <Route
+                      component={
+                        Object {
+                          "$$typeof": Symbol(react.lazy),
+                          "_init": [Function],
+                          "_payload": Object {
+                            "_result": Promise {},
+                            "_status": 0,
+                          },
+                        }
+                      }
+                      computedMatch={
+                        Object {
+                          "isExact": true,
+                          "params": Object {},
+                          "path": "/",
+                          "url": "/",
+                        }
+                      }
+                      exact={true}
+                      location={
+                        Object {
+                          "hash": "",
+                          "pathname": "/",
+                          "search": "",
+                          "state": undefined,
+                        }
+                      }
+                      path="/"
+                    />
+                  </Switch>
+                  Loading
+                </Suspense>
+              </Routes>
+            </Router>
+          </BrowserRouter>
+        </RouterProvider>
+      </Router>
+    </Provider>
+  </ReduxProvider>
 </App>
 `;

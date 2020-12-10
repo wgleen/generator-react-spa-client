@@ -6,6 +6,27 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### PR: Feature: Integration layer (@wgleen in https://github.com/wgleen/generator-react-spa-client/pull/10)
+
+### Added
+- add example config into .env.example
+- add integration layer dependencies
+- add interceptors to integration layer
+- add client as a axios instance in integration layer
+- add authentication lib
+- add request in integration layer
+- add default application serializer in integration layer
+- add index resource from integration layer
+- add index of integration layer
+
+### Changed
+- change eslint config to add jest recommentations config
+- update Routes snapshot
+
+### Fixed
+- fix webpack config with proccess provider
+
+
 ### PR: Feature: Config structure (@wgleen in https://github.com/wgleen/generator-react-spa-client/pull/8)
 
 ### Added

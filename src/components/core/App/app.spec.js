@@ -1,10 +1,10 @@
 import React from 'react'
-import { render } from '@testing-library/react'
+import { mount } from 'enzyme'
 import App from './App'
 
 describe('<App />', () => {
   it('should render correctly', () => {
-    const component = render(<App />)
+    const component = mount(<App />)
 
     expect(component).toMatchSnapshot()
 

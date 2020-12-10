@@ -1,9 +1,149 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Home /> should render correctly 1`] = `
-<Home>
-  <div>
-    Welcome to Home page
-  </div>
-</Home>
+<Wrapper>
+  <ReduxProvider>
+    <Provider
+      store={
+        Object {
+          "dispatch": [Function],
+          "getState": [Function],
+          "replaceReducer": [Function],
+          "subscribe": [Function],
+          Symbol(observable): [Function],
+        }
+      }
+    >
+      <ThemeProvider>
+        <Component
+          theme={
+            Object {
+              "colors": Object {
+                "blue": "#2e7baf",
+                "gray": "#737373",
+                "grayDark": "#4d4d4d",
+                "grayDarkest": "#0d0d0d",
+                "grayLight": "#b3b3b3",
+                "grayLightest": "#e5e5e5",
+                "green": "#3cab3a",
+                "primary": "#ec0000",
+                "primaryDark": "#b90000",
+                "primaryDarkest": "#860000",
+                "primaryLight": "#ff8686",
+                "primaryLightest": "#ffd2d2",
+                "red": "#ff3225",
+                "secondary": "#43bccd",
+                "secondaryDark": "#2e9faf",
+                "secondaryDarkest": "#247a86",
+                "secondaryLight": "#94d9e2",
+                "secondaryLightest": "#d0eef2",
+                "yellow": "#e6e328",
+              },
+              "typography": Object {
+                "fontFamilyPrimary": "Open Sans",
+                "fontWeightPrimary": 300,
+                "lineHeight": "normal",
+                "textAlign": "left",
+              },
+            }
+          }
+        >
+          <RouterProvider>
+            <BrowserRouter>
+              <Router
+                history={
+                  Object {
+                    "action": "POP",
+                    "block": [Function],
+                    "createHref": [Function],
+                    "go": [Function],
+                    "goBack": [Function],
+                    "goForward": [Function],
+                    "length": 1,
+                    "listen": [Function],
+                    "location": Object {
+                      "hash": "",
+                      "pathname": "/",
+                      "search": "",
+                      "state": undefined,
+                    },
+                    "push": [Function],
+                    "replace": [Function],
+                  }
+                }
+              >
+                <Home>
+                  <Head
+                    description="Welcome to Home page"
+                    title="Home Page"
+                  >
+                    <HelmetWrapper
+                      defer={true}
+                      encodeSpecialCharacters={true}
+                    >
+                      <SideEffect(NullComponent)
+                        defer={true}
+                        encodeSpecialCharacters={true}
+                        meta={
+                          Array [
+                            Object {
+                              "content": "Welcome to Home page",
+                              "name": "description",
+                            },
+                          ]
+                        }
+                        title="Home Page - Generator React SPA Client"
+                        titleAttributes={Object {}}
+                      >
+                        <NullComponent
+                          defer={true}
+                          encodeSpecialCharacters={true}
+                          meta={
+                            Array [
+                              Object {
+                                "content": "Welcome to Home page",
+                                "name": "description",
+                              },
+                            ]
+                          }
+                          title="Home Page - Generator React SPA Client"
+                          titleAttributes={Object {}}
+                        />
+                      </SideEffect(NullComponent)>
+                    </HelmetWrapper>
+                  </Head>
+                  <DefaultLayout>
+                    <div>
+                      <section>
+                        <Text
+                          color={null}
+                          fontWeigth="200"
+                          lineHeight="20px"
+                          margin={null}
+                        >
+                          <styled.div
+                            color={null}
+                            fontWeigth="200"
+                            margin={null}
+                          >
+                            <div
+                              className="sc-bdfBwQ jhdlPg"
+                              color={null}
+                            >
+                              Welcome to Home page
+                            </div>
+                          </styled.div>
+                        </Text>
+                      </section>
+                    </div>
+                  </DefaultLayout>
+                </Home>
+              </Router>
+            </BrowserRouter>
+          </RouterProvider>
+        </Component>
+      </ThemeProvider>
+    </Provider>
+  </ReduxProvider>
+</Wrapper>
 `;

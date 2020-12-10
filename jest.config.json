@@ -3,11 +3,11 @@
   "verbose": true,
   "setupFilesAfterEnv": [
     "jest-extended",
+    "./test/setup.js",
     "./test/helpers.js"
   ],
   "setupFiles": [
-    "jest-prop-type-error",
-    "./test/setup.js"
+    "jest-prop-type-error"
   ],
   "moduleFileExtensions": ["js", "json", "jsx", "ts", "tsx", "node"],
   "globals": {

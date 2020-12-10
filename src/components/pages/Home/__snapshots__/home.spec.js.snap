@@ -1,15 +1,19 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<App /> should render correctly 1`] = `
+exports[`<Home /> should render correctly 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      Loading
+      <div>
+        Welcome to Home page
+      </div>
     </div>
   </body>,
   "container": <div>
-    Loading
+    <div>
+      Welcome to Home page
+    </div>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],

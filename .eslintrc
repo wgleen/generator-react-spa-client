@@ -8,9 +8,19 @@
     "extends": [
       "eslint:recommended",
       "plugin:react/recommended",
-      "plugin:prettier/recommended"
+      "plugin:prettier/recommended",
+      "plugin:import/errors",
+      "plugin:import/warnings"
     ],
     "settings": {
+      "import/resolver": {
+        "node": {
+          "extensions": [
+            ".js",
+            ".jsx"
+          ]
+        }
+      },
       "react": {
         "version": "detect"
       }
@@ -30,7 +40,6 @@
     "rules": {
       "semi": [2, "never"],
       "prettier/prettier": "error",
-      "import/export": 0,
       "react/jsx-uses-vars": "error",
       "react/jsx-uses-react": "error",
       "react/jsx-filename-extension": [

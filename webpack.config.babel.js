@@ -21,7 +21,7 @@ export const PATHS = {
   }
 }
 
-export const CDN_PATH = '/assets'
+export const CDN_PATH = '/assets/'
 
 export const development = {
   mode: 'development',

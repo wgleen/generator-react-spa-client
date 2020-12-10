@@ -1,15 +1,13 @@
 import React from 'react'
-import { render, screen } from '@testing-library/react'
+import { render } from '@testing-library/react'
 import App from './App'
 
 describe('<App />', () => {
   it('should render correctly', () => {
-    expect(render(<App />)).toMatchSnapshot()
-  })
+    const component = render(<App />)
 
-  it('should render a text equal to "Hello World"', () => {
-    render(<App />)
+    expect(component).toMatchSnapshot()
 
-    expect(screen.getByText('Hello World')).toBeDefined()
+    component.unmount()
   })
 })

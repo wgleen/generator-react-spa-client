@@ -2,6 +2,9 @@ import webpack from 'webpack'
 import merge from 'webpack-merge'
 import HtmlWebpackPlugin from 'html-webpack-plugin'
 import TerserPlugin from 'terser-webpack-plugin'
+import dotEnv from 'dotenv'
+
+dotEnv.config()
 
 export const root = __dirname
 
@@ -112,7 +115,10 @@ export default merge({}, envConfig, {
   },
   plugins: [
     new webpack.EnvironmentPlugin({
-      DEBUG: true
+      API_BASE_URL: process.env.API_BASE_URL,
+      API_TIMEOUT: process.env.API_TIMEOUT,
+      API_HEADERS_CONTENT_TYPE: process.env.API_HEADERS_CONTENT_TYPE,
+      API_HEADERS_X_KEY: process.env.API_HEADERS_X_KEY
     })
   ]
 })

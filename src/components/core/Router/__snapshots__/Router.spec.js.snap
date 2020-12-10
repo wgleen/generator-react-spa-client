@@ -1,72 +1,151 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Router /> should render correctly 1`] = `
-<Router>
-  <RouterProvider>
-    <BrowserRouter>
-      <Router
-        history={
-          Object {
-            "action": "POP",
-            "block": [Function],
-            "createHref": [Function],
-            "go": [Function],
-            "goBack": [Function],
-            "goForward": [Function],
-            "length": 1,
-            "listen": [Function],
-            "location": Object {
-              "hash": "",
-              "pathname": "/",
-              "search": "",
-              "state": undefined,
-            },
-            "push": [Function],
-            "replace": [Function],
-          }
+<Wrapper>
+  <ReduxProvider>
+    <Provider
+      store={
+        Object {
+          "dispatch": [Function],
+          "getState": [Function],
+          "replaceReducer": [Function],
+          "subscribe": [Function],
+          Symbol(observable): [Function],
         }
-      >
-        <Routes>
-          <Suspense
-            fallback="Loading"
-          >
-            <Switch>
-              <Route
-                component={
+      }
+    >
+      <ThemeProvider>
+        <Component
+          theme={
+            Object {
+              "colors": Object {
+                "blue": "#2e7baf",
+                "gray": "#737373",
+                "grayDark": "#4d4d4d",
+                "grayDarkest": "#0d0d0d",
+                "grayLight": "#b3b3b3",
+                "grayLightest": "#e5e5e5",
+                "green": "#3cab3a",
+                "primary": "#ec0000",
+                "primaryDark": "#b90000",
+                "primaryDarkest": "#860000",
+                "primaryLight": "#ff8686",
+                "primaryLightest": "#ffd2d2",
+                "red": "#ff3225",
+                "secondary": "#43bccd",
+                "secondaryDark": "#2e9faf",
+                "secondaryDarkest": "#247a86",
+                "secondaryLight": "#94d9e2",
+                "secondaryLightest": "#d0eef2",
+                "yellow": "#e6e328",
+              },
+              "typography": Object {
+                "fontFamilyPrimary": "Open Sans",
+                "fontWeightPrimary": 300,
+                "lineHeight": "normal",
+                "textAlign": "left",
+              },
+            }
+          }
+        >
+          <RouterProvider>
+            <BrowserRouter>
+              <Router
+                history={
                   Object {
-                    "$$typeof": Symbol(react.lazy),
-                    "_init": [Function],
-                    "_payload": Object {
-                      "_result": Promise {},
-                      "_status": 0,
+                    "action": "POP",
+                    "block": [Function],
+                    "createHref": [Function],
+                    "go": [Function],
+                    "goBack": [Function],
+                    "goForward": [Function],
+                    "length": 1,
+                    "listen": [Function],
+                    "location": Object {
+                      "hash": "",
+                      "pathname": "/",
+                      "search": "",
+                      "state": undefined,
                     },
+                    "push": [Function],
+                    "replace": [Function],
                   }
                 }
-                computedMatch={
-                  Object {
-                    "isExact": true,
-                    "params": Object {},
-                    "path": "/",
-                    "url": "/",
-                  }
-                }
-                exact={true}
-                location={
-                  Object {
-                    "hash": "",
-                    "pathname": "/",
-                    "search": "",
-                    "state": undefined,
-                  }
-                }
-                path="/"
-              />
-            </Switch>
-            Loading
-          </Suspense>
-        </Routes>
-      </Router>
-    </BrowserRouter>
-  </RouterProvider>
-</Router>
+              >
+                <Router>
+                  <RouterProvider>
+                    <BrowserRouter>
+                      <Router
+                        history={
+                          Object {
+                            "action": "POP",
+                            "block": [Function],
+                            "createHref": [Function],
+                            "go": [Function],
+                            "goBack": [Function],
+                            "goForward": [Function],
+                            "length": 1,
+                            "listen": [Function],
+                            "location": Object {
+                              "hash": "",
+                              "pathname": "/",
+                              "search": "",
+                              "state": undefined,
+                            },
+                            "push": [Function],
+                            "replace": [Function],
+                          }
+                        }
+                      >
+                        <Routes>
+                          <Suspense
+                            fallback="Loading"
+                          >
+                            <Switch>
+                              <Route
+                                component={
+                                  Object {
+                                    "$$typeof": Symbol(react.lazy),
+                                    "_init": [Function],
+                                    "_payload": Object {
+                                      "_result": Promise {},
+                                      "_status": 0,
+                                    },
+                                  }
+                                }
+                                computedMatch={
+                                  Object {
+                                    "isExact": true,
+                                    "params": Object {},
+                                    "path": "/",
+                                    "url": "/",
+                                  }
+                                }
+                                exact={true}
+                                location={
+                                  Object {
+                                    "hash": "",
+                                    "pathname": "/",
+                                    "search": "",
+                                    "state": undefined,
+                                  }
+                                }
+                                path="/"
+                              />
+                            </Switch>
+                            Loading
+                          </Suspense>
+                        </Routes>
+                      </Router>
+                    </BrowserRouter>
+                  </RouterProvider>
+                </Router>
+              </Router>
+            </BrowserRouter>
+          </RouterProvider>
+        </Component>
+      </ThemeProvider>
+    </Provider>
+  </ReduxProvider>
+</Wrapper>
 `;

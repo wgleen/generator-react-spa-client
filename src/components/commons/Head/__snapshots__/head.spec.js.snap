@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Head /> should render correctly 1`] = `
+<Head
+  description=""
+  title=""
+>
+  <HelmetWrapper
+    defer={true}
+    encodeSpecialCharacters={true}
+  >
+    <SideEffect(NullComponent)
+      defer={true}
+      encodeSpecialCharacters={true}
+      meta={
+        Array [
+          Object {
+            "content": "Generator React SPA Client",
+            "name": "description",
+          },
+        ]
+      }
+      title="Generator React SPA Client - Generator React SPA Client"
+      titleAttributes={Object {}}
+    >
+      <NullComponent
+        defer={true}
+        encodeSpecialCharacters={true}
+        meta={
+          Array [
+            Object {
+              "content": "Generator React SPA Client",
+              "name": "description",
+            },
+          ]
+        }
+        title="Generator React SPA Client - Generator React SPA Client"
+        titleAttributes={Object {}}
+      />
+    </SideEffect(NullComponent)>
+  </HelmetWrapper>
+</Head>
+`;

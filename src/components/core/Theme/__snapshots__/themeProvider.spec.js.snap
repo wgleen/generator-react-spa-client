@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ThemeProvider /> should render correctly 1`] = `
+<ThemeProvider>
+  <Component
+    theme={
+      Object {
+        "colors": Object {
+          "blue": "#2e7baf",
+          "gray": "#737373",
+          "grayDark": "#4d4d4d",
+          "grayDarkest": "#0d0d0d",
+          "grayLight": "#b3b3b3",
+          "grayLightest": "#e5e5e5",
+          "green": "#3cab3a",
+          "primary": "#ec0000",
+          "primaryDark": "#b90000",
+          "primaryDarkest": "#860000",
+          "primaryLight": "#ff8686",
+          "primaryLightest": "#ffd2d2",
+          "red": "#ff3225",
+          "secondary": "#43bccd",
+          "secondaryDark": "#2e9faf",
+          "secondaryDarkest": "#247a86",
+          "secondaryLight": "#94d9e2",
+          "secondaryLightest": "#d0eef2",
+          "yellow": "#e6e328",
+        },
+        "typography": Object {
+          "fontFamilyPrimary": "Open Sans",
+          "fontWeightPrimary": 300,
+          "lineHeight": "normal",
+          "textAlign": "left",
+        },
+      }
+    }
+  />
+</ThemeProvider>
+`;

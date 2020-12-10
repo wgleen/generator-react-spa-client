@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DefaultLayout /> should render correctly 1`] = `
+<DefaultLayout>
+  <div>
+    <section />
+  </div>
+</DefaultLayout>
+`;

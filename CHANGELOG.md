@@ -6,6 +6,21 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### PR: Feature: config struture (@wgleen in https://github.com/wgleen/generator-react-spa-client/pull/0)
+
+### Added
+- add example config into .env.example
+- add api config
+- add site config
+- add general config module with all others configs together
+
+### Changed
+- change gitignore with .env
+- change webpack config with dotenv loader
+- change test setup with dotenv loader
+- change Routes component to use new config module
+
+
 ### PR: Feature: react router with code splitting (@wgleen in https://github.com/wgleen/generator-react-spa-client/pull/7)
 
 ### Added

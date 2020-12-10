@@ -6,6 +6,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### PR: Fix: Routes tests (@wgleen in https://github.com/wgleen/generator-react-spa-client/pull/11)
+
+### Fixed
+- fix Routes test with initialEntries prop with key value on MemoryRouter component
+
+
 ### PR: Feature: Integration layer (@wgleen in https://github.com/wgleen/generator-react-spa-client/pull/10)
 
 ### Added

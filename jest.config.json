@@ -16,6 +16,7 @@
   "transform": {
     "^.+\\.jsx?$": "babel-jest"
   },
+  "snapshotSerializers": ["enzyme-to-json/serializer"],
   "collectCoverageFrom": [
     "src/components/**/*.{js,jsx}"
   ],

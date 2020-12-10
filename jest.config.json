@@ -1,0 +1,34 @@
+{
+  "name": "generator-react-spa-client",
+  "verbose": true,
+  "setupFilesAfterEnv": [
+    "jest-extended",
+    "./test/helpers.js"
+  ],
+  "setupFiles": [
+    "jest-prop-type-error",
+    "./test/setup.js"
+  ],
+  "moduleFileExtensions": ["js", "json", "jsx", "ts", "tsx", "node"],
+  "globals": {
+    "NODE_ENV": "test"
+  },
+  "transform": {
+    "^.+\\.jsx?$": "babel-jest"
+  },
+  "collectCoverageFrom": [
+    "src/components/**/*.{js,jsx}"
+  ],
+  "coverageReporters": [
+    "json-summary",
+    "text",
+    "html",
+    "lcov"
+  ],
+  "coverageDirectory": "coverage",
+  "testPathIgnorePatterns": [
+    "/node_modules/",
+    "/public/",
+    "/dist"
+  ]
+}

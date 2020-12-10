@@ -12,7 +12,7 @@ exports[`<Routes /> should render correctly 1`] = `
         "entries": Array [
           Object {
             "hash": "",
-            "key": "z23jix",
+            "key": "2ee6kx",
             "pathname": "/",
             "search": "",
             "state": undefined,
@@ -26,7 +26,7 @@ exports[`<Routes /> should render correctly 1`] = `
         "listen": [Function],
         "location": Object {
           "hash": "",
-          "key": "z23jix",
+          "key": "2ee6kx",
           "pathname": "/",
           "search": "",
           "state": undefined,
@@ -64,7 +64,7 @@ exports[`<Routes /> should render correctly 1`] = `
             location={
               Object {
                 "hash": "",
-                "key": "z23jix",
+                "key": "2ee6kx",
                 "pathname": "/",
                 "search": "",
                 "state": undefined,

@@ -114,6 +114,9 @@ export default merge({}, envConfig, {
     ]
   },
   plugins: [
+    new webpack.ProvidePlugin({
+      process: 'process/browser'
+    }),
     new webpack.EnvironmentPlugin({
       API_BASE_URL: process.env.API_BASE_URL,
       API_TIMEOUT: process.env.API_TIMEOUT,

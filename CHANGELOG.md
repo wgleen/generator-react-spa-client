@@ -6,6 +6,25 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### PR: Feature: Components layer with styled components (@wgleen in https://github.com/wgleen/generator-react-spa-client/pull/13)
+
+### Added
+- add dependencies to component layer
+- add ThemeProvider with default style configs
+- add Wrapper component with all Providers
+- add Text component
+- add head component
+- add DefaultLayput component
+- add Head, DefaultLayout and Text to the Home page component
+- add ThemeProvider into App component
+
+### Changed
+- change config stylelint with styled-components rules
+
+### Fixed
+- fix Router tests with Wrapper providers
+
+
 ### PR: Feature: Reducks layer (@wgleen in https://github.com/wgleen/generator-react-spa-client/pull/12)
 
 ### Added

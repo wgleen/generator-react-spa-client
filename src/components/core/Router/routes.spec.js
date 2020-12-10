@@ -7,7 +7,7 @@ import Routes from './Routes'
 describe('<Routes />', () => {
   it('should render correctly', () => {
     const component = mount(
-      <MemoryRouter>
+      <MemoryRouter initialEntries={[{ key: 'test' }]}>
         <Routes />
       </MemoryRouter>
     )

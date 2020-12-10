@@ -1,7 +1,15 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Routes /> should render correctly 1`] = `
-<MemoryRouter>
+<MemoryRouter
+  initialEntries={
+    Array [
+      Object {
+        "key": "test",
+      },
+    ]
+  }
+>
   <Router
     history={
       Object {
@@ -12,10 +20,9 @@ exports[`<Routes /> should render correctly 1`] = `
         "entries": Array [
           Object {
             "hash": "",
-            "key": "2ee6kx",
+            "key": "test",
             "pathname": "/",
             "search": "",
-            "state": undefined,
           },
         ],
         "go": [Function],
@@ -26,10 +33,9 @@ exports[`<Routes /> should render correctly 1`] = `
         "listen": [Function],
         "location": Object {
           "hash": "",
-          "key": "2ee6kx",
+          "key": "test",
           "pathname": "/",
           "search": "",
-          "state": undefined,
         },
         "push": [Function],
         "replace": [Function],
@@ -64,10 +70,9 @@ exports[`<Routes /> should render correctly 1`] = `
             location={
               Object {
                 "hash": "",
-                "key": "2ee6kx",
+                "key": "test",
                 "pathname": "/",
                 "search": "",
-                "state": undefined,
               }
             }
             path="/"

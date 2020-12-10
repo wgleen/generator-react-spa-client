@@ -18,7 +18,11 @@
   },
   "snapshotSerializers": ["enzyme-to-json/serializer"],
   "collectCoverageFrom": [
-    "src/components/**/*.{js,jsx}"
+    "src/components/**/*.{js,jsx}",
+    "src/reducks/**/*.js",
+    "src/integration/**/*.js",
+    "src/lib/**/*.js",
+    "src/config/**/*.js"
   ],
   "coverageReporters": [
     "json-summary",

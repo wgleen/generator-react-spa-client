@@ -6,6 +6,20 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### PR: Feature: Reducks layer (@wgleen in https://github.com/wgleen/generator-react-spa-client/pull/12)
+
+### Added
+- add reducks layer dependencies
+- add redux middlewares
+- add root reducers into reducks layer
+- add redux store into reducks layer
+- add index of reducks layer
+- add index of resources from reducks layer
+- add ReduxProvider into App component
+- add ReduxProvider
+- add reducks, integration, lib and config to the coverage report
+
+
 ### PR: Fix: Routes tests (@wgleen in https://github.com/wgleen/generator-react-spa-client/pull/11)
 
 ### Fixed

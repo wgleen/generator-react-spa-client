@@ -6,6 +6,19 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### PR: Feature: Configure test suite (@wgleen in https://github.com/wgleen/generator-react-spa-client/pull/4)
+
+### Added
+- add tests scripts and dependencies
+- add jest config
+- add setup and helpers file to jest environment
+- add jest eslint plugin
+- add vscode config with jest-runner config for running tests
+- add coverage path into gitignore
+- add documentation for tests in README
+- add tests do App component
+
+
 ### PR: Feature: Lint (@wgleen in https://github.com/wgleen/generator-react-spa-client/pull/3)
 
 ### Added

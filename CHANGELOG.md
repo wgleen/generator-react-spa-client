@@ -6,6 +6,25 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### PR: Feature: react router with code splitting (@wgleen in https://github.com/wgleen/generator-react-spa-client/pull/5)
+
+### Added
+- add react-router-dom dependency
+- add eslint import plugin
+- add routes config
+- add Routes component
+- add RouterProvider with react-router-dom provider
+- add Router component with RouterProvider and Routes
+- add Home page component
+- add Router into App component
+
+### Changed
+- change setup file with config of jest with expect extends
+
+### Fixed
+- fix webpack publicPath config in production environment
+
+
 ### PR: Feature: Configure test suite (@wgleen in https://github.com/wgleen/generator-react-spa-client/pull/4)
 
 ### Added

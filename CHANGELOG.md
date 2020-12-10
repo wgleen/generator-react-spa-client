@@ -6,7 +6,23 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
-### PR: Feature: react router with code splitting (@wgleen in https://github.com/wgleen/generator-react-spa-client/pull/5)
+### PR: Feature: react router with code splitting (@wgleen in https://github.com/wgleen/generator-react-spa-client/pull/7)
+
+### Added
+- add dynamic import plugin into babel config
+- add enzyme dependencies
+- add enzyme adapter into test setup file
+- add test to check the current page
+
+### Changed
+- change jest config to snapshot enzyme output
+- change app test to use enzyme
+- change tests of router to enzyme
+- change Home component tests to enzyme
+- change routerProvider tests to use enzyme
+
+
+### PR: Feature: react router with code splitting (@wgleen in https://github.com/wgleen/generator-react-spa-client/pull/6)
 
 ### Added
 - add react-router-dom dependency

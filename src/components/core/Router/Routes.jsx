@@ -1,13 +1,13 @@
 import React, { lazy, Suspense } from 'react'
 import { Route, Switch } from 'react-router-dom'
-import routes from '../../../config/routes'
+import config from '../../../config'
 
 const Home = lazy(() => import('../../pages/Home/Home'))
 
 const Routes = () => (
   <Suspense fallback="Loading">
     <Switch>
-      <Route exact path={routes.root.path} component={Home} />
+      <Route exact path={config.routes.root.path} component={Home} />
     </Switch>
   </Suspense>
 )

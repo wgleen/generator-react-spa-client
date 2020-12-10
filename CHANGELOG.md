@@ -6,7 +6,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
-### PR: Feature: config struture (@wgleen in https://github.com/wgleen/generator-react-spa-client/pull/0)
+### PR: Feature: Config structure (@wgleen in https://github.com/wgleen/generator-react-spa-client/pull/8)
 
 ### Added
 - add example config into .env.example
@@ -21,7 +21,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - change Routes component to use new config module
 
 
-### PR: Feature: react router with code splitting (@wgleen in https://github.com/wgleen/generator-react-spa-client/pull/7)
+### PR: Feature: Change react-testing-library to enzyme (@wgleen in https://github.com/wgleen/generator-react-spa-client/pull/7)
 
 ### Added
 - add dynamic import plugin into babel config
@@ -37,7 +37,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - change routerProvider tests to use enzyme
 
 
-### PR: Feature: react router with code splitting (@wgleen in https://github.com/wgleen/generator-react-spa-client/pull/6)
+### PR: Feature: React router with code splitting (@wgleen in https://github.com/wgleen/generator-react-spa-client/pull/6)
 
 ### Added
 - add react-router-dom dependency
